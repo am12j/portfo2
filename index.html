@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Aman Khan | Aspiring Full Stack & DevOps Engineer</title>
+    <meta name="description" content="Portfolio of Nayan Sinha, a Computer Science student passionate about cloud computing, backend systems, and building scalable software applications.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Background Containers -->
+    <div id="canvas-container-dark"></div>
+    <div id="canvas-container-light"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">NS<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-image-container gs_reveal gs_reveal_fromTop">
+                    <img src="assets/images/profile.png" alt="Aman Profile Picture" class="hero-profile-img">
+                </div>
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name">Md Aman Khan<span class="dot">.</span></h1>
+                <h2 class="role">Aspiring Full Stack & Devops Engineer</h2>
+                <p class="intro">
+                    Building Scalable Applications | Automating Infrastructure | Research Enthusiast
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://drive.google.com/file/d/16mwz8xOO0yYv4H5rtVCtN4zMouTMPQuV/view?usp=drivesdk" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/md-aman-khan-2a8274266/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/am12j" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:muhammadaman.dev@gmail.com
+                    
+                    " aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a <strong>Computer Science Engineer</strong> at <strong>Lovely Professional University</strong>,
+                            <strong>specialized</strong> in the <strong>end-to-end lifecycle</strong> of software.
+                            I integrate <strong>user-centric frontends</strong> with <strong>robust backends</strong>
+                            and <strong>optimized database architectures</strong>, ensuring <strong>seamless performance</strong>
+                            from initial development to <strong>automated deployment</strong>.
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    
+                    <!-- Languages -->
+                    <div class="skill-category gs_reveal">
+                        <h3 class="category-title"><i class="fas fa-code"></i> Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-card"><i class="devicon-c-plain colored"></i><span>C</span></div>
+                            <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+                            <div class="skill-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                            <div class="skill-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                            <div class="skill-card"><i class="devicon fa-brands fa-html5"></i><span>HTML</span></div>
+                            <div class="skill-card"><i class="devicon fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                            <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                            <div class="skill-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category gs_reveal">
+                        <h3 class="category-title"><i class="fas fa-layer-group"></i> Frameworks & Technologies</h3>
+                        <div class="skill-items">
+                            <div class="skill-card"><i class="devicon fa-brands fa-react"></i><span>React</span></div>
+                            <div class="skill-card"><i class="devicon fa-brands fa-node-js"></i><span>NodeJS</span></div>
+                            <div class="skill-card"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
+                             <div class="skill-card"><i class="devicon fas fa-wind"></i><span>Tailwind CSS</span></div>
+                           
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category gs_reveal">
+                        <h3 class="category-title"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <div class="skill-items">
+                                <div class="skill-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+                                <div class="skill-card"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+                                <div class="skill-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+                                <div class="skill-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                                <div class="skill-card"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+                                <div class="skill-card"><i class="devicon-jenkins-line colored"></i><span>Jenkins</span></div>
+                                <div class="skill-card"><i class="devicon-docker-plain colored"></i><span>Docker</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category gs_reveal">
+                        <h3 class="category-title"><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-card"><span>Problem Solving</span></div>
+                            <div class="skill-card"><span>Teamwork</span></div>
+                            <div class="skill-card"><span>Adaptability</span></div>
+                            <div class="skill-card"><span>Time Management</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card gs_reveal gs_reveal_fromLeft">
+                        <div class="project-image">
+                            <img src="assets/images/projects/csm.png" alt="Community Safety Monitor Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Infrastructure complain management system</h3>
+                            <p class="project-desc">A web platform designed to help people out of the problem of submitting their infrastrcure complain in the society.</p>
+                            
+                            <div class="project-features">
+                                <ul>
+                                    <li>Interactive charts and dashboards</li>
+                                    <li>Visualization of complaint trends and status</li>
+                                    <li> user dashboards</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <p><strong>Impact:</strong> Improved visibility of safety data. Deployed on vercel with high uptime and scalable performance.</p>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://complain-beryl.vercel.app/" rel="noopener noreferrer" class="btn btn-outline" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/am12j/complain" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;"><i class="fab fa-github"></i> Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card gs_reveal gs_reveal_fromRight">
+                        <div class="project-image">
+                            <img src="assets/images/projects/vcp.png" alt="Event Reminder System Platform">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Virtual Classroom Platform</h3>
+                            <p class="project-desc">A web-based platform that allows teachers and students to conduct and manage online classes efficiently.</p>
+                            
+                            <div class="project-features">
+                                <ul>
+                                    <li>Live video classes</li>
+                                    <li>Real-time chat and discussion</li>
+                                    <li>Student and teacher login system</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-tech">
+                                <span>React</span><span>Nodejs</span><span>Express.js</span><span>Mongodb</span>
+                            </div>
+                            
+                            <div class="project-impact">
+                               <p><strong>Impact:</strong> Improved online learning experience by enabling live video classes and real-time student-teacher interaction.</p>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://vcp-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                <a href="https://github.com/am12j/vcp" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding: 0.5rem 1.2rem; font-size: 0.9rem;"><i class="fab fa-github"></i> Git Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience & Training Section -->
+        <section id="experience" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                
+                    <div class="timeline">
+
+                        <!-- SIH Achievement -->
+                        <div class="timeline-item gs_reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h3>Smart India Hackathon Finalist (College Level)</h3>
+                                    <p>
+                                        Selected for the final round of Smart India Hackathon after clearing multiple internal hackathon rounds conducted at the college level.
+                                    </p>
+                            </div>
+                        </div>
+
+                            <!-- Research Paper -->
+                        <div class="timeline-item gs_reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h3>Research Paper Submission</h3>
+                                <p>
+                                    Recently submitted a research paper based on innovative concepts in the field of technology.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Hackathon Runner-up -->
+                        <div class="timeline-item gs_reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h3>Runner-Up – AIU Hackathon (Internal)</h3>
+                                <p>
+                                    Secured runner-up position in an internal hackathon organized under AIU, demonstrating strong problem-solving and development skills.
+                                </p>
+                            </div>
+                        </div>
+
+            </div>
+
+                <h2 class="section-title mt-5">Training</h2>
+
+                <div class="timeline">
+                    <!-- Training -->
+                    <div class="timeline-item gs_reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">June 2025</span>
+                            <h3>Data Structures and Algorithms Training</h3>
+                            <p class="timeline-subtitle">Comprehensive DSA Program</p>
+                            <p>Covered: Arrays, Linked Lists, Stacks, Queues, Trees, Heaps, Graphs, Recursion, Backtracking, Greedy algorithms.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <h2 class="section-title mt-5">Certifications</h2>
+                <div class="certifications-grid gs_reveal">
+                    <a href="https://drive.google.com/file/d/1fWXNM8zlsPD6XvzY6k_m9Lv2WoVnYXVt/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <div class="cert-card has-image">
+                            <div class="cert-image-wrapper">
+                                <img src="assets/images/certificates/bits-byte.jpg" alt="Oracle Developer Professional" class="cert-img">
+                            </div>
+                            <div class="cert-info">
+                                <h4>The Bits And Bytes of Computer Networking</h4>
+                                <span>Google(via Coursera) • Sep 2024</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/10qra7iOAD2_3P6QahJ3mXmN54PWxuh_v/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <div class="cert-card has-image">
+                            <div class="cert-image-wrapper">
+                                <img src="assets/images/certificates/logictoprocessor.png" alt="Oracle DevOps Professional" class="cert-img">
+                            </div>
+                            <div class="cert-info">
+                                <h4>Digital System from Logic Gates to Processor</h4>
+                                <span>Universitat Autònoma de Barcelona (via Coursera) • Sep 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1cOWThYl7c7kiIXSEMimcfUEQWEbys3X1/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <div class="cert-card has-image">
+                            <div class="cert-image-wrapper">
+                                <img src="assets/images/certificates/fon.png" alt="Oracle AI Foundations Associate" class="cert-img">
+                            </div>
+                            <div class="cert-info">
+                                <h4>Fundamentals of Network Communication</h4>
+                                <span>University of Colorado (via Coursera) • Aug 2024</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1qqk5ZgRNHik2csOsWZ2FJ0ZhrV3oz1-J/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <div class="cert-card has-image">
+                            <div class="cert-image-wrapper">
+                                <img src="assets/images/certificates/nptel.jpg" alt="Problem Solving with Data Structures & Algorithms" class="cert-img">
+                            </div>
+                            <div class="cert-info">
+                                <h4>Problem Solving with Data Structures & Algorithms</h4>
+                                <span>CipherSchool • Jul 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Sj0pp9f5uYYdWPCSudOqq41EASCz7eJg/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <div class="cert-card has-image">
+                            <div class="cert-image-wrapper">
+                                <img src="assets/images/certificates/advanced-networks.jpg" alt="Advanced Computer Networks" class="cert-img">
+                            </div>
+                            <div class="cert-info">
+                                <h4>Cloud Computing</h4>
+                                <span>NPTEL</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    
+                    <div class="edu-card gs_reveal">
+                        <h3>B.Tech - Computer Science and Engineering</h3>
+                        <h4>Lovely Professional University, Punjab</h4>
+
+                        <div class="edu-year" style="margin-top: 1rem;">Aug 2023 - Present</div>
+                    </div>
+
+                    <div class="edu-card gs_reveal">
+                        <h3>Intermediate (12th)</h3>
+                        <h4>SGD Modern School,Dhanbad,Jharkhand</h4>
+                        <div class="edu-year" style="margin-top: 1rem;">Apr 2020 - Mar 2022</div>
+                    </div>
+
+                    <div class="edu-card gs_reveal">
+                        <h3>Matriculation (10th)</h3>
+                        <h4>SGD Modern School, Dhanbad,Jharkhand</h4>
+                        <div class="edu-year" style="margin-top: 1rem;">Apr 2018 - Mar 2020</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container gs_reveal">
+                    
+                    <div class="contact-info">
+                        <h3>Let's talk about everything!</h3>
+                        <p>Don't like forms? Send me an email. 👋</p>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:muhammadaman.dev@gmail.com">muhammadaman.dev@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919264116016">+91-9264116016</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/md-aman-khan-2a8274266/" target="_blank">linkedin.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/am12j" target="_blank">github.com</a>
+                        </div>
+                        
+                        <div class="contact-socials">
+                            <a href="https://www.linkedin.com/in/md-aman-khan-2a8274266/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/am12j" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:muhammadaman.dev@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-btn">
+                            <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Md Aman Khan. All rights reserved.</p>
+            <p class="footer-note">Designed and Built by Md Aman Khan</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js for Dark Mode Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
